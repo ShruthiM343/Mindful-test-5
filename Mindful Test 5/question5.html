@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quesiton 5</title>
+</head>
+<body>
+    <h1>Palindrome</h1><br>
+    <label>Enter a string:</label>
+    <input type="text" id="str">
+    <button onclick="ans()">Submit</button>
+    <div id="final"></div>
+
+    <script>
+        function ans(){
+            var b=document.getElementById("str").innerHTML.value();
+            document.getElementById("final").innerHTML=(b==reverse(b)) ? true : false;
+        
+
+        }
+        
+    </script>
+</body>
+</html>
